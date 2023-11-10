@@ -1,0 +1,25 @@
+{
+  "name": "nginx-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "start:dev": "tsx watch src/index.ts",
+    "build": "tsup src",
+    "test": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^4.24.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.9",
+    "tsup": "^7.2.0",
+    "tsx": "^3.14.0",
+    "typescript": "^5.2.2",
+    "vitest": "^0.34.6"
+  }
+}
